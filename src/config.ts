@@ -1,7 +1,7 @@
 import { Intents } from 'discord.js';
 
 export default {
-  prefix: '!',
+  prefix: '!!',
   token: process.env.DISCORD_TOKEN,
   intents: [
     Intents.FLAGS.GUILDS,
